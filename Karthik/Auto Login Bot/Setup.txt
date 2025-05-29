@@ -1,0 +1,42 @@
+>> Selenium Tkinter Login Automation -
+This project is a Python script that uses Selenium WebDriver and Tkinter GUI to automate logging into multiple internal websites and save screenshots after login. It also shows error popups and saves debug screenshots if login fails.
+
+1. Install Python
+Download and install Python from the official site:
+https://www.python.org/downloads/
+
+Make sure to check the option Add Python to PATH during installation.
+
+2. Install Google Chrome Browser
+Download and install Google Chrome browser from:
+https://www.google.com/chrome/
+
+3. Install ChromeDriver
+Download the ChromeDriver that matches your Chrome browser version from:
+https://chromedriver.chromium.org/downloads
+
+Extract the downloaded file.
+
+4. Add ChromeDriver to your System PATH
+You need to add the folder containing the chromedriver executable to your system’s PATH environment variable so that Selenium can find it.
+
+On Windows, add the folder containing chromedriver.exe to PATH.
+Example: C:\WebDrivers\ChromeDriver\
+
+On macOS/Linux, add the folder containing chromedriver to your PATH environment variable.
+Example: /usr/local/bin/
+
+5. Install Python Dependencies
+Open your terminal or command prompt in the folder where the script is located and run:
+pip install selenium
+pip install tk
+
+
+python main.py
+
+Features -
+> GUI built with Tkinter
+> Browser automation using Selenium WebDriver
+> Logs into various internal web portals with a single click
+> Saves screenshots after successful login
+> Shows error popups and saves debug screenshots if login fails
