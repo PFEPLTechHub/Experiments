@@ -1,42 +1,42 @@
->> Selenium Tkinter Login Automation -
-This project is a Python script that uses Selenium WebDriver and Tkinter GUI to automate logging into multiple internal websites and save screenshots after login. It also shows error popups and saves debug screenshots if login fails.
+
+Selenium Tkinter Login Automation
+
+This project is a Python-based automation script that combines Selenium WebDriver with a Tkinter graphical interface to streamline logging into multiple internal web portals. It is designed to improve productivity by automating repetitive login tasks and providing visual feedback.
+
+Key Features:
+- A user-friendly GUI built with Tkinter
+- Automates browser interactions using Selenium WebDriver
+- Logs into various internal websites with a single click
+- Takes and saves screenshots after successful logins
+- Displays error popups and saves debug screenshots when a login attempt fails
+
+How to Set It Up:
 
 1. Install Python
-Download and install Python from the official site:
-https://www.python.org/downloads/
+   Download and install Python from the official website:
+   https://www.python.org/downloads/
+   *Make sure to check the option “Add Python to PATH” during installation.*
 
-Make sure to check the option Add Python to PATH during installation.
-
-2. Install Google Chrome Browser
-Download and install Google Chrome browser from:
-https://www.google.com/chrome/
+2. Install Google Chrome
+   If not already installed, download and install Google Chrome from:
+   https://www.google.com/chrome/
 
 3. Install ChromeDriver
-Download the ChromeDriver that matches your Chrome browser version from:
-https://chromedriver.chromium.org/downloads
+   - Visit https://chromedriver.chromium.org/downloads
+   - Download the ChromeDriver version that matches your Chrome browser
+   - Extract the downloaded ZIP file
 
-Extract the downloaded file.
-
-4. Add ChromeDriver to your System PATH
-You need to add the folder containing the chromedriver executable to your system’s PATH environment variable so that Selenium can find it.
-
-On Windows, add the folder containing chromedriver.exe to PATH.
-Example: C:\WebDrivers\ChromeDriver\
-
-On macOS/Linux, add the folder containing chromedriver to your PATH environment variable.
-Example: /usr/local/bin/
+4. Add ChromeDriver to System PATH
+   Make sure Selenium can locate ChromeDriver by adding its directory to your system’s PATH environment variable:
+   - On Windows: Example path might be C:\WebDrivers\ChromeDriver\
+   - On macOS/Linux: Example path might be /usr/local/bin/
 
 5. Install Python Dependencies
-Open your terminal or command prompt in the folder where the script is located and run:
-pip install selenium
-pip install tk
+   Open a terminal or command prompt in the project directory and run:
 
+   pip install selenium tk
+
+How to Run the Script:
+Navigate to the directory where the script is located and run:
 
 python main.py
-
-Features -
-> GUI built with Tkinter
-> Browser automation using Selenium WebDriver
-> Logs into various internal web portals with a single click
-> Saves screenshots after successful login
-> Shows error popups and saves debug screenshots if login fails
